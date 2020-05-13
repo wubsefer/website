@@ -4,14 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My tribute page</title>
+    <style>
+      .responsive {
+        width: 100%;
+        height: auto;
+      }
+      
+      #image {
+
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+       
+    </style>
 </head>
 <body>
   <div id="main"> 
       <h1 id="title">Developer Remi.</h1>
       <div id="img-div">
-        <img id="image">
-        <p id="img-caption"></p>
+        <img src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" id="image" class="responsive">
+        <p id="img-caption"> A pretty dog Developer</p>
       </div>
-  </div>
+      <div id="tribute-info">
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Laudantium, nesciunt.
+        <a href="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" id="tribute-link" target="_blank">Dog picture</a>
+      </div>
+  </div> 
+  
+  
 </body>
 </html>
